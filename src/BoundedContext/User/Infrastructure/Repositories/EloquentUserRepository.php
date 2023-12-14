@@ -16,7 +16,7 @@ use Src\BoundedContext\User\Domain\ValueObjects\UserRememberToken;
 
 final class EloquentUserRepository implements UserRepositoryContract
 {
-    private $eloquentUserModel;
+    private EloquentUserModel $eloquentUserModel;
 
     public function __construct()
     {
